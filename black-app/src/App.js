@@ -4,7 +4,7 @@ import Counter from './components/Counter';
 
 
 
-  const items = [
+    const items = [
     {
       title: "What is React?",
       content: "React is a front end javascript framework",
@@ -22,7 +22,9 @@ import Counter from './components/Counter';
 export default () => {
  
   return (
-  <Search/> //Search sayfasini refere ettik. 
+
+    <UseEffect/>   
+ // <Search/> //Search sayfasini refere ettik. 
 //   return (
 //  <Accordion items={items}/>
 //  )
