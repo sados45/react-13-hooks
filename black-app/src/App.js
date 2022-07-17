@@ -1,6 +1,9 @@
 import React from 'react';
 import Accordion from './components/Accordion';
 import Counter from './components/Counter';
+import Search from './components/Search';
+import UseRef from './components/UseRef';
+
 
 
 
@@ -21,16 +24,27 @@ import Counter from './components/Counter';
 
 export default () => {
  
-  return (
+  return <Search/>//<UseRef/>
+    
+  {/* (
+  
+    <UseRef/>  
 
-    <UseEffect/>   
- // <Search/> //Search sayfasini refere ettik. 
-//   return (
+    UseRef input gibi refere etmek icin kullandigimiz araci kullanim hooks ta. */}
+ 
+   {/* // <UseEffect/>   
+
+      <Search/> 
+      //Search sayfasini refere ettik. 
+
+ //   return (
 //  <Accordion items={items}/>
 //  )
 
-// return <Counter/> burada counter icin refere verdik.
-  ) 
+// return <Counter/> burada counter icin refere verdik. 
+
+  ) */}
+
 }
 
 
